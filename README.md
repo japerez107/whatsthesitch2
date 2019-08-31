@@ -24,5 +24,12 @@ Deployed on Heroku: [https://fierce-reaches-93705.herokuapp.com/]
 - MongoDB
 - Mongoose
 
+## Screenshot
+![On Load](https://github.com/japerez107/heygirlhey/blob/master/images/concert-this.png)
+- Screen Onload when you go to localhost 
+
+![Leave a Note](https://github.com/japerez107/heygirlhey/blob/master/images/concert-this.png)
+- Screen when you want to leave an note on scraped story 
+
 ## Author
 Jacqueline P.
