@@ -1,0 +1,60 @@
+body {
+  background-image: url(../assets/images/newspaper-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.display-4,
+.lead {
+  font-family: 'BioRhyme Expanded', serif;
+}
+
+#wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5%;
+  border-radius: 15px 50px;
+  background: #09fab2;
+  padding: 20px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.container {
+  
+  border-radius: 15px 50px;
+  background: #ffffff;
+  padding: 20px;
+  text-align: left;
+  opacity: 0.9;
+}
+
+#articles {
+  font-family: 'Suez One', serif;
+  background-color: white;
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+#notes {
+  float: right;
+  background-color: white;
+  width: 30%;
+  font-family: 'Suez One', serif;
+
+}
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: rgb(91, 152, 223);
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
