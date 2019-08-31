@@ -1,7 +1,7 @@
 # Whats the Sitch
 
 ## Objective:
-Create an app that lets users view the most recent news on The Verge - Samsung News. As well as have the ability to leave comments on the latest news.
+Create an app that lets users view the most recent news on NY Times Technology Section. As well as have the ability to leave comments on the latest news.
 
 ## Live App:
 Deployed on Heroku: [https://fierce-reaches-93705.herokuapp.com/]
