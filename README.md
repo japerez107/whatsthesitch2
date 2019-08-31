@@ -25,6 +25,9 @@ Deployed on Heroku: [https://fierce-reaches-93705.herokuapp.com/]
 - Mongoose
 
 ## Screenshot
+
+Added images because app keeps crashing even though it has been deployed on Heroku 
+
 ![On Load](https://github.com/japerez107/heygirlhey/blob/master/images/concert-this.png)
 - Screen Onload when you go to localhost 
 
