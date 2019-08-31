@@ -26,10 +26,16 @@ app.use(express.json());
 // Make public a static folder
 app.use(express.static("public"));
 
-// Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_175x94fn:fq8hdbtfdn4v85drtbf3sjg9hl@ds137687.mlab.com:37687/heroku_175x94fn";
 
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+// Connect to the Mongo DB
+
+
+mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
+
+// THIS IS MY PERSONAL CONNECTION FOR MONGODB BUT IT DOES NOT CONNECT FOR SOME REASON
+// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_175x94fn:fq8hdbtfdn4v85drtbf3sjg9hl@ds137687.mlab.com:37687/heroku_175x94fn";
+
+// mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 // Routes
 
