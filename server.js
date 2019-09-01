@@ -29,7 +29,7 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/unit18Populater";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongodbHeadline";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
@@ -74,7 +74,7 @@ app.get("/scrape", function(req, res) {
     // Send a message to the client
     res.send("Scrape Complete");
   });
-});
+
 
 // Route for getting all Articles from the db
 app.get("/articles", function(req, res) {
