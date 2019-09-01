@@ -28,10 +28,10 @@ Deployed on Heroku: [https://fierce-reaches-93705.herokuapp.com/]
 
 Added images because app keeps crashing even though it has been deployed on Heroku 
 
-![On Load](https://github.com/japerez107/whatsthesitch2/public/assets/images/onload.png)
-- Screen Onload when you go to localhost 
+![On Load](https://github.com/japerez107/whatsthesitch2/blob/master/public/assets/images/onload.png)
+- Screen Onload
 
-![Leave a Note](https://github.com/whatsthesitch2/public/assets/images/notes.png)
+![Leave a Note](https://github.com/japerez107/whatsthesitch2/blob/master/public/assets/images/notes.png)
 - Screen when you want to leave an note on scraped story 
 
 ## Author
