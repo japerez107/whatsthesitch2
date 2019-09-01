@@ -46,7 +46,7 @@ app.get("/scrape", function(req, res) {
     // Then, we load that into cheerio and save it to $ for a shorthand selector
     var $ = cheerio.load(response.data);
     var results = [];
-    $("li").each(function (i, element) {
+    $("h5").each(function (i, element) {
       var title = $(element).find("h1").text();
       var description = $(element).find("p").text();
       var link = "https://www.nytimes.com/" + $(this).find("a").attr("href");
